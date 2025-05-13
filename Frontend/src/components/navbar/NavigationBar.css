@@ -1,0 +1,42 @@
+.navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+  width: 150px;
+  height: 100px;        /* must be equal to width */
+  border-radius: 50%;   /* makes it circular */
+  object-fit: cover;
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #1F4529;
+    font-size: 18px;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navbar button{
+    background: transparent;
+    font-size: 15px;
+    color: #1F4529;
+    border: 1px solid teal;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.navbar button:hover{
+    background-color: #A1D6B2;
+
+}
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid teal;
+}

@@ -6,7 +6,10 @@
 }
 
 .navbar .logo{
-    width: 150px;
+    width: 150px;         /* or any fixed size */
+  height: 100px;        /* must be equal to width */
+  border-radius: 50%;   /* makes it circular */
+  object-fit: cover;
 }
 
 .navbar-menu{
